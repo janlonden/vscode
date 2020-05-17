@@ -39,7 +39,6 @@
 
     "editor.renderWhitespace": "selection",
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "sync.forceUpload": true,
 
     "[scss]": {
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
