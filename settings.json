@@ -1,0 +1,43 @@
+{
+    "workbench.colorTheme": "βui - Eighties Dark",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": true,
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "javascript.validate.enable": false,
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "breadcrumbs.enabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "editor.renderWhitespace": "selection",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "sync.forceUpload": true,
+    "[scss]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "editor.tabSize": 2,
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false
+}
