@@ -1,0 +1,37 @@
+[
+  {
+    "key": "shift+enter",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "escape",
+    "command": "extension.jumpy-exit",
+    "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+
+  {
+    "key": "ctrl+down",
+    "command": "spaceBlockJumper.moveDown",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+up",
+    "command": "spaceBlockJumper.moveUp",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+shift+down",
+    "command": "spaceBlockJumper.selectDown",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "ctrl+shift+up",
+    "command": "spaceBlockJumper.selectUp",
+    "when": "editorTextFocus"
+  }
+]
