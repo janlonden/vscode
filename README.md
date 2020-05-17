@@ -1,8 +1,8 @@
 # VS Code stuff
 
-0. Copy content from config files
-0. Run `sudo apt install fonts-firacode`
-0. Run:
+1. Copy content from config files
+1. Run `sudo apt install fonts-firacode`
+1. Run:
 
 ```
 code --install-extension swashata.beautiful-ui &&
