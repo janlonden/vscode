@@ -22,7 +22,7 @@
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
 
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "off",
