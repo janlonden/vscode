@@ -1,11 +1,7 @@
 {
-    "workbench.colorTheme": "βui - Eighties Dark",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 1,
-    "git.autofetch": true,
-    "editor.acceptSuggestionOnCommitCharacter": false,
+    "[html]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
 
     "[javascript]": {
         "editor.insertSpaces": true,
@@ -13,17 +9,6 @@
         "editor.autoIndent": true,
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
-
-    "editor.quickSuggestionsDelay": 0,
-    "javascript.validate.enable": false,
-    "workbench.iconTheme": null,
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.ignoreRecommendations": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.suggestOnTriggerCharacters": true,
-    "editor.parameterHints.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "breadcrumbs.enabled": true,
 
     "[json]": {
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
@@ -33,18 +18,30 @@
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
 
-    "[html]": {
-        "editor.defaultFormatter": "numso.prettier-standard-vscode"
-    },
-
-    "editor.renderWhitespace": "selection",
-    "javascript.updateImportsOnFileMove.enabled": "never",
-
     "[scss]": {
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
 
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderWhitespace": "selection",
+    "editor.suggestOnTriggerCharacters": true,
     "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
     "git.enableSmartCommit": true,
-    "editor.minimap.enabled": false
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.validate.enable": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "βui - Eighties Dark",
+    "workbench.iconTheme": null,
+    "workbench.startupEditor": "newUntitledFile",
 }
