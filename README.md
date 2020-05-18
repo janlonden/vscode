@@ -12,6 +12,5 @@ code --install-extension wmaurer.vscode-jumpy &&
 code --install-extension numso.prettier-standard-vscode &&
 code --install-extension 2gua.rainbow-brackets &&
 code --install-extension earshinov.sort-lines-by-selection &&
-code --install-extension jmfirth.vsc-space-block-jumper &&
 code --install-extension dbankier.vscode-quick-select
 ```
