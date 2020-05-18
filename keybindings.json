@@ -6,32 +6,28 @@
   },
 
   {
-    "key": "escape",
-    "command": "extension.jumpy-exit",
-    "when": "editorTextFocus && jumpy.isJumpyMode"
+    "key": "ctrl+up",
+    "command": "cursorMove",
+
+    "args": {
+        "to": "up",
+        "by": "line",
+        "value": 10
+    },
+
+    "when": "editorTextFocus"
   },
 
   {
     "key": "ctrl+down",
-    "command": "spaceBlockJumper.moveDown",
-    "when": "editorTextFocus"
-  },
+    "command": "cursorMove",
 
-  {
-    "key": "ctrl+up",
-    "command": "spaceBlockJumper.moveUp",
-    "when": "editorTextFocus"
-  },
+    "args": {
+        "to": "down",
+        "by": "line",
+        "value": 10
+    },
 
-  {
-    "key": "ctrl+shift+down",
-    "command": "spaceBlockJumper.selectDown",
-    "when": "editorTextFocus"
-  },
-
-  {
-    "key": "ctrl+shift+up",
-    "command": "spaceBlockJumper.selectUp",
     "when": "editorTextFocus"
   }
 ]
