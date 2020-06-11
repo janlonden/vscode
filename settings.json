@@ -6,7 +6,7 @@
     "[javascript]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2,
-        "editor.autoIndent": true,
+        "editor.autoIndent": "advanced",
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
 
@@ -19,6 +19,10 @@
     },
 
     "[scss]": {
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+
+    "[typescriptreact]": {
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
 
@@ -43,5 +47,5 @@
     "window.zoomLevel": 1,
     "workbench.colorTheme": "βui - Eighties Dark",
     "workbench.iconTheme": null,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none"
 }
